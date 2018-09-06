@@ -1,5 +1,11 @@
+## 0.0.10
+- Updated eiffel-remrem-parent version
+
+## 0.0.9
+- Migrated from gradle to maven
+
 ## 0.0.8
-- Migrated from gradle to maven 
+- Updated GSON version
 
 ## 0.0.7
 - Added method to get template for event types.
