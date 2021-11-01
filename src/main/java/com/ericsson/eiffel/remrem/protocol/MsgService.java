@@ -70,12 +70,21 @@ public interface MsgService {
      * @return Json of template file
      */
     JsonElement getEventTemplate(String eventType);
+    
+    /**
+     * Returns message protocol edition name
+     * 
+     * @return edition name
+     */
 
+    String getProtocolEdition();
+    
     /**
      * Returns service name.
      * 
      * @return service name from the messaging library.
      */
+    
     
     String getServiceName();
 
